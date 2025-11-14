@@ -60,8 +60,6 @@ class SatSolver(SatSolverAbstractClass):
         pass
 
     def sat_bruteforce(self, n_vars:int, clauses:List[List[int]]) -> Tuple[bool, Dict[int, bool]]:
-        # iterate over all possible assignments of n variables
-        # try every possible assignment (brute force)
         all_choices = [False, True]
     
         for bits in itertools.product(all_choices, repeat=n_vars):
