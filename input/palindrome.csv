@@ -1,0 +1,22 @@
+Pallindrome Test
+s0,s1,s2,s3,sacc,srej
+1
+a,b,$,_
+s0
+sacc
+srej
+s0,$,s0,$,R
+s0,a,s1,_,R
+s0,a,s3,_,L
+s0,b,s2,_,R
+s0,b,s3,_,L
+s0,_,sacc,_,S
+s1,a,s1,a,R
+s1,b,s1,b,R
+s1,_,s3,_,L
+s2,a,s2,a,R
+s2,b,s2,b,R
+s2,_,s3,_,L
+s3,a,s0,_,L
+s3,b,s0,_,L
+s3,_,sacc,_,S

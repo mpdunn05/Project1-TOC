@@ -1,0 +1,27 @@
+Composite Test
+s0,s1,s2,s3,s4,s5s,s5x,s6,s7,saccept,sreject
+1
+1,B,$,_,A
+s0
+saccept
+sreject
+s0,$,s1,$,R
+s1,1,s2,B,R
+s2,1,s3,A,R
+s3,1,s3,A,R
+s3,1,s4,1,L
+s4,A,s4,A,L
+s4,B,s5s,_,R
+s5s,B,s5s,B,R
+s5s,A,s5s,A,R
+s5s,_,saccept,_,L
+s5s,1,s6,B,L
+s5x,A,s5x,A,R
+s5x,B,s5x,B,R
+s5x,1,s6,A,L
+s5x,_,sreject,_,L
+s6,B,s6,B,L
+s6,A,s6,A,L
+s6,_,s7,_,R
+s7,A,s5x,_,R
+s7,B,s5s,_,R
